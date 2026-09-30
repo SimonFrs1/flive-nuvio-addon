@@ -1,0 +1,29 @@
+{
+  "id": "com.flive.nuvio",
+  "version": "1.0.0",
+  "name": "F1 Live – Nuvio",
+  "description": "Live F1 stream from flive.dpdns.org",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "tv"
+  ],
+  "catalogs": [
+    {
+      "type": "tv",
+      "id": "flive-f1",
+      "name": "F1 Live",
+      "extra": []
+    }
+  ],
+  "idPrefixes": [
+    "flive:"
+  ],
+  "behaviorHints": {
+    "adult": false,
+    "p2pNotSupported": true
+  }
+}

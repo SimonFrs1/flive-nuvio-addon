@@ -1,0 +1,12 @@
+{
+  "name": "flive-nuvio-addon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nuvio/Stremio addon for the F1 Live source",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
